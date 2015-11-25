@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Deprecated
 ==========
 
@@ -35,3 +36,7 @@ Next Steps
 ==========
 
 Read the README file in each of the subdirectories for more information about what goes in those directories.
+=======
+# cheflearn
+learningchef
+>>>>>>> 980cb034aec52cbcfae9a8e8ba0a65a12f2c85cf
