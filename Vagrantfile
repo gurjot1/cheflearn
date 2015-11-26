@@ -40,7 +40,9 @@ Vagrant.configure(2) do |config|
   # config.vm.synced_folder "../data", "/vagrant_data"
  config.vm.provision :chef_client do |chef|
      chef.chef_server_url = "https://api.chef.io/organizations/rupy "
-     chef.validation_key_path ="rupy-validator.pem "
+     chef.validation_key_path ="./.chef/rupy-validator.pem "
+     chef.validation_client_name = "rupy-validator"
+     chef.node_name = "gurjot_vm"
    end
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
